@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Foundations Of Data And Digital Journalism</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+	
+	<div class="intro">
+		<h1>Foundations Of Data And Digital Journalism</h1>
+<!-- 		<h4> [no'sheen hoo-sane'] </h4> -->
+<!-- 		<h4><a href="https://twitter.com/nausheenhusain" target="_blank">@nausheenhusain</a></h4> -->
+	</div>
+
+  
+  <!-- About Row -->
+	<div class="row">
+		<div id="end" class="col-sm-12">
+			<h4>this page was published by github pages. fonts: montserrat, open sans.</h4>
+		</div>
+	</div>
+
+</body>
+</html>
