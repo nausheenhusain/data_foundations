@@ -26,7 +26,7 @@
 	.container {
 		background-color: #b4b4b4;
 		margin-bottom: 60px;
-		color: #fe9801;
+		color: #D16014;
 	}
 	a.sec-head {
 		font-size: 18px;
@@ -35,13 +35,13 @@
 	}
 	.intro {
 		background-color: #b4b4b4;
-		color: #fe9801;
+		color: #D16014;
 		text-align: center;
 		padding: 10px;
 	}
 	#temp {
 		text-align: center;
-		color: #fe9801;
+		color: #D16014;
 		margin-left: auto;
 		margin-right: auto;
 		padding-bottom:	20px;
@@ -85,7 +85,7 @@
 	}
 	#end {
 		background-color: #b4b4b4;
-		color: #fe9801;
+		color: #D16014;
 		text-align:	center;
 		margin-bottom: 50px;
 	}
