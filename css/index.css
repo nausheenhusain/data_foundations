@@ -25,7 +25,7 @@
 
 	.container {
 		background-color: #b4b4b4;
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 		color: #D16014;
 	}
 	a.sec-head {
@@ -58,12 +58,12 @@
 		padding-left: 10px;
 	}
 	#about {
-		text-align: left;
+		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 30px;
 		padding-bottom:	20px;
-		width: 90%;
+		/*width: 90%;*/
 		height: auto;
 	}
 	#about li {
@@ -82,6 +82,7 @@
 	}
 	.content h3 {
 		color: black;
+		font-size: 20px;
 	}
 	#end {
 		background-color: #b4b4b4;
