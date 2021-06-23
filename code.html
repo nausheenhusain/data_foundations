@@ -31,13 +31,32 @@
 	</div>
 
 	<div class="container content">
-		<h2>Cleaning: Make all cell values in a column title case.</h2>
-		<h3>The first letter of each word in the cell is capitalized, everything else is lower-case.</h3>
+		<h2>cleaning: turn data into a csv</h2>
+		<h3>CSV tends to be easier to work with and more malleable by programming languages than Excel.</h3>
 		<div class="row">
-			<div class="col-md-3"><code>This is Excel code.</code></div>
-			<div class="col-md-3"><code>This is csvkit code.</code></div>
-			<div class="col-md-3"><code>This is R code.</code></div>
-			<div class="col-md-3"><code>This is Python code.</code></div>
+			<div class="col-md-6">
+				<h3><strong>Excel/Sheets</strong></h3>
+				<p class="code">Download as CSV.</p>
+			</div>
+			<div class="col-md-6">
+				<h3><strong>csvkit</strong></h3>
+				<p class="code comment">## This will save the CSV file in the same directory as where the Excel file exists.</p>
+				<p class="code">in2csv excel_filename.xlsx > csv_filename.csv</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<h3><strong>R</strong></h3>
+				<p class="code comment">## R will overwrite a file if the name is already in use.</p>
+				<p class="code">write.csv(name_of_dataframe,'name_of_csv.csv')</p>
+			</div>
+			<div class="col-md-6">
+				<h3><strong>Python</strong></h3>
+				<p class="code comment">## This converts a Pandas dataframe into CSV.</p>
+				<p class="code">import pandas as pd</p>
+				<p class="code">df = pd.DataFrame({'name': ['Emi', 'Railey'], 'color': ['black', 'gray'], 'age': ['4', '2']})</p>
+				<p class="code">df.to_csv(csv_name, encoding='utf-8', index=False)</p>
+			</div>
 		</div>
 	</div>
 
