@@ -12,7 +12,7 @@
 		font-family: 'Open Sans', serif;
 		line-height: 30px;
 	}
-	p {
+	p, ol, ul, li {
 		font-family: 'Open Sans', serif;
 		font-size: 18px;
 		color: black;
@@ -26,6 +26,8 @@
 
 	.container {
 		margin-bottom: 40px;
+	}
+	.container h2 {
 		color: #D16014;
 	}
 	a.sec-head {
@@ -83,6 +85,7 @@
 	.content h3 {
 		color: black;
 		font-size: 20px;
+		font-weight: bold;
 	}
 	#end {
 		background-color: #b4b4b4;
